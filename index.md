@@ -1,5 +1,28 @@
 ## Welcome to GitHub Pages
 
+# Danny Francisco
+
+Welcome to my online profile!
+
+## About Me
+I'm Danny Francisco, a passionate developer and technology enthusiast. I enjoy building web applications, exploring new technologies, and sharing knowledge with the community.
+
+## Skills
+- Web Development (HTML, CSS, JavaScript)
+- Python & Data Science
+- Cloud & DevOps
+- Open Source Contributions
+
+## Projects
+- **Personal Website**: This site, built with GitHub Pages and Markdown.
+- **Other Projects**: [GitHub Profile](https://github.com/dcfrancisco)
+
+## Contact
+- Email: [your.email@example.com](mailto:your.email@example.com)
+- LinkedIn: [linkedin.com/in/dcfrancisco](https://linkedin.com/in/dcfrancisco)
+
+---
+Thank you for visiting my profile!
 You can use the [editor on GitHub](https://github.com/dcfrancisco/dcfrancisco.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
