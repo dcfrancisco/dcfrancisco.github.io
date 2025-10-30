@@ -18,7 +18,6 @@ I'm Danny Francisco, a passionate developer and technology enthusiast. I enjoy b
 - **Other Projects**: [GitHub Profile](https://github.com/dcfrancisco)
 
 ## Contact
-- Email: [your.email@example.com](mailto:your.email@example.com)
 - LinkedIn: [linkedin.com/in/dcfrancisco](https://linkedin.com/in/dcfrancisco)
 
 ---
