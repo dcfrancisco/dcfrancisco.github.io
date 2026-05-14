@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dcfrancisco.github.io/.github/sitemap.xml
