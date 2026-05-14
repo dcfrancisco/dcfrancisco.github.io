@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Pronunciation Practice Tool | Hear Difficult Words</title>
+  <meta name="description" content="Practice difficult English word pronunciation with a free Web Speech API tool, accent selection, and static SEO pages for commonly mispronounced words.">
+  <link rel="canonical" href="https://dcfrancisco.github.io/.github/">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>English Pronunciation Practice</h1>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="tool-title">
+      <h2 id="tool-title">Pronunciation Input Tool</h2>
+      <p>Type any word or short phrase, choose an accent, and hear a spoken pronunciation using your browser’s Web Speech API.</p>
+      <div class="controls">
+        <div>
+          <label for="word-input">Word or phrase</label>
+          <textarea id="word-input" rows="3" placeholder="Try: entrepreneur"></textarea>
+        </div>
+        <div>
+          <label for="accent-select">Accent selection</label>
+          <select id="accent-select" aria-label="Choose pronunciation accent">
+            <option value="en-US">English (US)</option>
+            <option value="en-GB">English (UK)</option>
+            <option value="en-AU">English (Australia)</option>
+            <option value="en-IN">English (India)</option>
+          </select>
+        </div>
+        <div class="button-row">
+          <button id="speak-button" type="button">Speak</button>
+          <button id="clear-button" class="secondary" type="button">Clear Input</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="recent-title">
+      <h2 id="recent-title">Recently Used Words</h2>
+      <ul id="recent-words"></ul>
+    </section>
+
+    <section class="card" aria-labelledby="difficult-title">
+      <h2 id="difficult-title">Popular Difficult English Words</h2>
+      <p>Explore focused pronunciation pages for words frequently searched by learners.</p>
+      <div class="word-grid">
+        <a href="words/queue.html">Queue</a>
+        <a href="words/epitome.html">Epitome</a>
+        <a href="words/colonel.html">Colonel</a>
+        <a href="words/subtle.html">Subtle</a>
+        <a href="words/debt.html">Debt</a>
+        <a href="words/genre.html">Genre</a>
+        <a href="words/hyperbole.html">Hyperbole</a>
+        <a href="words/quinoa.html">Quinoa</a>
+        <a href="words/entrepreneur.html">Entrepreneur</a>
+        <a href="words/miscellaneous.html">Miscellaneous</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Educational pronunciation content for language learners. No account required.</p>
+  </footer>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
