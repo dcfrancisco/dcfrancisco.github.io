@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tools Hub | Utilities & Calculators</title>
+    <meta
+      name="description"
+      content="A collection of small, static utility web apps (calculators, converters, helpers) — all GitHub Pages friendly."
+    />
+    <link rel="canonical" href="https://dcfrancisco.github.io/tools/" />
+    <meta property="og:title" content="Tools Hub | Utilities & Calculators" />
+    <meta
+      property="og:description"
+      content="Static tools and small web apps for everyday tasks."
+    />
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tools</h1>
+      <nav aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms</a>
+        <a href="index.html">Tools</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero tools-header" aria-labelledby="tools-title">
+        <div>
+          <h2 id="tools-title">Utility tools</h2>
+          <p>
+            Small, static web utilities you can use right in your browser. No
+            accounts, no backend.
+          </p>
+        </div>
+        <div class="search-bar">
+          <input
+            id="tools-search"
+            type="search"
+            placeholder="Search tools..."
+            aria-label="Search tools"
+          />
+          <div style="height: 0.5rem"></div>
+          <select id="tools-category" aria-label="Filter by category">
+            <option value="">All categories</option>
+            <option value="Everyday Tools">Everyday Tools</option>
+            <option value="Shopping Tools">Shopping Tools</option>
+            <option value="Health Tools">Health Tools</option>
+            <option value="Language Tools">Language Tools</option>
+            <option value="Business Tools">Business Tools</option>
+          </select>
+        </div>
+      </section>
+
+      <div class="ad-placeholder" role="complementary">
+        Ad placeholder (sidebar)
+      </div>
+
+      <section class="card">
+        <h3>Available Tools</h3>
+        <div class="tools-grid" id="tools-grid">
+          <a
+            class="tool-card"
+            href="pronunciation/index.html"
+            data-categories="Language Tools,Everyday Tools"
+          >
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="tool-icon">PH</div>
+              <span class="category-badge">Language</span>
+            </div>
+            <strong class="tool-title">Pronunciation Helper</strong>
+            <div class="tool-meta">
+              Hear words using your browser's speech synthesis. US/UK accents.
+            </div>
+          </a>
+
+          <div class="tool-card coming-soon" data-categories="Shopping Tools">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="tool-icon">SZ</div>
+              <span class="category-badge">Shopping</span>
+            </div>
+            <strong class="tool-title">Clothing Size Converter</strong>
+            <div class="tool-meta">
+              Coming soon — convert sizes between regions and brands.
+            </div>
+          </div>
+
+          <div class="tool-card coming-soon" data-categories="Business Tools">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="tool-icon">DC</div>
+              <span class="category-badge">Business</span>
+            </div>
+            <strong class="tool-title">Discount Calculator</strong>
+            <div class="tool-meta">
+              Coming soon — calculate discounts and sale prices.
+            </div>
+          </div>
+
+          <div class="tool-card coming-soon" data-categories="Business Tools">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="tool-icon">VAT</div>
+              <span class="category-badge">Business</span>
+            </div>
+            <strong class="tool-title">VAT Calculator</strong>
+            <div class="tool-meta">
+              Coming soon — add or remove VAT from prices.
+            </div>
+          </div>
+
+          <div class="tool-card coming-soon" data-categories="Everyday Tools">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="tool-icon">AG</div>
+              <span class="category-badge">Everyday</span>
+            </div>
+            <strong class="tool-title">Age Calculator</strong>
+            <div class="tool-meta">
+              Coming soon — calculate age from birthdays and intervals.
+            </div>
+          </div>
+
+          <div class="tool-card coming-soon" data-categories="Health Tools">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="tool-icon">BMI</div>
+              <span class="category-badge">Health</span>
+            </div>
+            <strong class="tool-title">BMI Calculator</strong>
+            <div class="tool-meta">
+              Coming soon — body mass index calculator for adults.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Ad placeholder</h3>
+        <div class="ad-placeholder">
+          Inline content ad placeholder (do not insert scripts yet)
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Tools hub — static, privacy-first utilities.</p>
+      <div class="ad-placeholder">Footer ad placeholder</div>
+    </footer>
+
+    <script src="../assets/tools.js" defer></script>
+  </body>
+</html>

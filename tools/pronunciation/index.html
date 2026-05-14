@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pronunciation Helper | Tools</title>
+    <meta
+      name="description"
+      content="Enter a word or phrase and hear it spoken using the browser Web Speech API. US/UK accent selector included."
+    />
+    <link
+      rel="canonical"
+      href="https://dcfrancisco.github.io/tools/pronunciation/"
+    />
+    <meta property="og:title" content="Pronunciation Helper" />
+    <meta
+      property="og:description"
+      content="Browser-based pronunciation helper using Web Speech API (no backend)."
+    />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pronunciation Helper</h1>
+      <nav aria-label="Primary">
+        <a href="../../index.html">Home</a>
+        <a href="../../about.html">About</a>
+        <a href="../../contact.html">Contact</a>
+        <a href="../../privacy-policy.html">Privacy Policy</a>
+        <a href="../../terms.html">Terms</a>
+        <a href="../index.html">Tools</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="pron-title">
+        <h2 id="pron-title">Hear any word or short phrase</h2>
+        <p>
+          Choose an accent and press <strong>Speak</strong>. Uses your browser's
+          speech synthesis voices.
+        </p>
+        <div class="controls">
+          <label for="word-input">Word or phrase</label>
+          <textarea
+            id="word-input"
+            rows="3"
+            placeholder="Type a word or short phrase"
+          ></textarea>
+
+          <label for="accent-select">Accent</label>
+          <select id="accent-select" aria-label="Accent selector">
+            <option value="en-US">English (US)</option>
+            <option value="en-GB">English (UK)</option>
+          </select>
+
+          <div class="button-row">
+            <button id="speak-button" type="button">Speak</button>
+            <button id="clear-button" class="secondary" type="button">
+              Clear
+            </button>
+          </div>
+
+          <div
+            id="support-warning"
+            style="
+              display: none;
+              color: var(--accent);
+              font-weight: 700;
+              margin-top: 0.5rem;
+            "
+          ></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Notes</h3>
+        <p>
+          This tool uses the browser's Web Speech API (SpeechSynthesis). No
+          audio is sent to servers.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Pronunciation Helper — static and privacy-first.</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
