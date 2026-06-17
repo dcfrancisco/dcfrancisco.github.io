@@ -1,92 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>About — Danny Francisco</title>
-    <link rel="stylesheet" href="/assets/style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <a class="brand" href="/">Danny Francisco</a>
-        <nav class="nav">
-          <a href="/about.html">About</a>
-          <a href="/projects.html">Projects</a>
-          <a href="/writing.html">Writing</a>
-          <a href="/contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>About — Danny Francisco</title>
+      <link rel="stylesheet" href="/assets/style.css" />
+    </head>
+    <body>
+      <header class="site-header">
+        <div class="container">
+          <a class="brand" href="/">Danny Francisco</a>
+          <nav class="nav">
+            <a href="/about.html">About</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/writing.html">Writing</a>
+            <a href="/contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
 
-    <main class="container" id="about-main">
-      <article>
-        <h1>About — Danny Francisco</h1>
+      <main class="container" id="about-main">
+        <article>
+          <h1>On building systems that remember</h1>
 
-        <section>
-          <h2>The journey</h2>
-          <p>
-            This site tells a simple story: curiosity became craft, craft became
-            systems, and systems now reach toward memory and intelligence. I
-            began with BASIC on a home computer, wrote software through the rise
-            of UNIX and enterprise Java, led engineering teams, served as a
-            startup CTO, and now design platforms that combine knowledge,
-            governance, and AI.
-          </p>
-        </section>
+          <p>I keep returning to one question: how do we capture knowledge and make it useful to people? That question has guided a lifetime of work — from quick experiments on early home computers to systems that must survive organizational change and personnel turnover.</p>
 
-        <section>
-          <h2>Five chapters</h2>
-          <h3>1 — Learning to build</h3>
-          <p>
-            As a child I learned programming by doing: small experiments,
-            immediate feedback, and an obsession with making things that worked.
-            That hands-on curiosity shaped how I think about systems — start
-            small, iterate often, and preserve what you learn.
-          </p>
+          <h2>The lesson of generations</h2>
+          <p>Different eras taught different constraints. Early programming rewarded immediacy: fast feedback let ideas iterate. Enterprise systems taught durability and the costs of brittleness: integrations, messaging, and operations require discipline. Architecture taught me to view systems as conversations — between teams, services, and users. AI now shows me the limits of generation without grounding: outputs must connect back to evidence to be trusted.</p>
 
-          <h3>2 — Building enterprise systems</h3>
-          <p>
-            Large systems taught me the importance of integration,
-            observability, and operational discipline. Enterprise work is about
-            flow: messages, transactions, and the human processes that surround
-            them. Solving those problems required design choices that outlast
-            individual features.
-          </p>
-
-          <h3>3 — Thinking beyond code</h3>
-          <p>
-            Designing at scale shifted my focus from lines of code to how people
-            use systems, how organizations adopt them, and how knowledge travels
-            across teams. Architecture is as much about communication as it is
-            about technology.
-          </p>
-
-          <h3>4 — AI and knowledge systems</h3>
-          <p>
-            Recent work centers on memory, retrieval, agents, model
-            orchestration, and governance. I build platforms that treat memory
-            as data, models as interchangeable workers, and governance as an
-            operational concern — not an afterthought.
-          </p>
-
-          <h3>5 — What comes next</h3>
-          <p>
-            The next wave of systems will focus on helping people remember,
-            reason, and learn. That means durable memory, explainable decisions,
-            and tooling that surfaces evidence, not just generated text.
-          </p>
-        </section>
-
-        <section>
-          <h2>Engineering philosophy</h2>
-          <p>
-            I believe software is accumulated knowledge. Good systems preserve
-            context, make it discoverable, and let future engineers and users
-            benefit from the work of the past. Key principles I follow:
-          </p>
+          <h2>Principles I rely on</h2>
+          <p>Over time I’ve distilled a few practical principles that recur in my work:</p>
           <ul>
-            <li>
+            <li><strong>Capture context:</strong> save the signals and traces that explain why a choice was made.</li>
+            <li><strong>Design for retrieval:</strong> memory is only valuable if it can be found and verified.</li>
+            <li><strong>Layer governance:</strong> make policy and validation part of runtime, not an afterthought.</li>
+            <li><strong>Prefer modularity:</strong> build components that can be swapped and evolved independently.</li>
+          </ul>
+
+          <h2>Projects as focused questions</h2>
+          <p>Each project is an experiment that asks the central question in a specific domain. <a href="/projects/open-intelligence-platform.html">OIP</a> treats memory as infrastructure; <a href="/projects/delivery-wizard.html">Delivery Wizard</a> treats delivery artifacts as records that inform future work; <a href="/projects/chronicle.html">Chronicle</a> explores how personal narratives can be rooted in source material; <a href="/projects/athena.html">Athena</a> is about retention and feedback; <a href="/projects/eventease.html">EventEase</a> focuses on applying these ideas in dependable business systems.</p>
+
+          <blockquote class="muted">Organizations forget faster than they learn. My work aims to slow that forgetting.</blockquote>
+
+          <h2>What I'm exploring now</h2>
+          <ul>
+            <li>AI memory systems and long-term retrieval</li>
+            <li>Organizational intelligence and knowledge flow</li>
+            <li>Agent architectures with provenance</li>
+            <li>Governance layers that make AI outputs auditable</li>
+            <li>Human-AI collaboration that amplifies institutional knowledge</li>
+          </ul>
+
+          <h2>One impression</h2>
+          <p>I’ve spent a lifetime building systems. Today my work asks how those systems can remember, explain, and support better decisions.</p>
+        </article>
+      </main>
+      <footer class="site-foot">
+        <div class="container">&copy; Danny Francisco</div>
+      </footer>
+      <script src="/assets/script.js"></script>
+    </body>
+  </html>
               <strong>Memory first:</strong> capture signals and evidence so
               systems can ground their outputs.
             </li>
