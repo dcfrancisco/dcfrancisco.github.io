@@ -1,60 +1,104 @@
-## Welcome to GitHub Pages
+---
+title: "Danny Francisco — Portfolio"
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/style.css">
 
 # Danny Francisco
 
-Welcome to my online profile!
+> Developer • Open-source maintainer • AI & systems engineer
 
-## About Me
-I'm Danny Francisco, a passionate developer and technology enthusiast. I enjoy building web applications, exploring new technologies, and sharing knowledge with the community.
+<header class="site-header">
+	<div class="container">
+		<a class="brand" href="/">Danny Francisco</a>
+		<nav class="site-nav">
+			<a href="#projects">Projects</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</div>
+</header>
 
-## Skills
-- Web Development (HTML, CSS, JavaScript)
-- Python & Data Science
-- Cloud & DevOps
-- Open Source Contributions
+<section class="hero container">
+	<img class="avatar" src="https://avatars.githubusercontent.com/u/404683?v=4" alt="Danny Francisco">
+	<div class="hero-copy">
+		<h1>Hi — I’m Danny.</h1>
+		<p class="lead">I build production-ready AI systems, developer tools, and retro computing projects. I enjoy clean engineering, reliable systems, and thoughtful UX.</p>
+		<p class="actions"><a class="btn" href="#projects">See Projects</a> <a class="muted" href="https://github.com/dcfrancisco">GitHub</a></p>
+	</div>
+</section>
 
-## Projects
-- **Personal Website**: This site, built with GitHub Pages and Markdown.
-- **Other Projects**: [GitHub Profile](https://github.com/dcfrancisco)
+<main class="container">
 
-## Contact
-- LinkedIn: [linkedin.com/in/dcfrancisco](https://linkedin.com/in/dcfrancisco)
+<section id="projects">
+	<h2>Featured Projects</h2>
+	<div class="projects-grid">
 
----
-Thank you for visiting my profile!
-You can use the [editor on GitHub](https://github.com/dcfrancisco/dcfrancisco.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+		<a class="card" href="https://github.com/dcfrancisco/chronicle-biographer" target="_blank">
+			<h3>chronicle-biographer</h3>
+			<p>AI biographer that turns memories, documents, and conversations into observations, themes, and memoir drafts.</p>
+		</a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		<a class="card" href="https://github.com/dcfrancisco/portalops-ai" target="_blank">
+			<h3>portalops-ai</h3>
+			<p>AI-powered operations platform for enterprise portals: diagnostics, remediation, and knowledge-assisted administration.</p>
+		</a>
 
-### Markdown
+		<a class="card" href="https://github.com/dcfrancisco/open-intelligence-platform" target="_blank">
+			<h3>open-intelligence-platform</h3>
+			<p>Private-first intelligence layer for AI assistants — local LLMs, memory, agents, and governance services.</p>
+		</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		<a class="card" href="https://github.com/dcfrancisco/personal-llm-documents" target="_blank">
+			<h3>personal-llm-documents</h3>
+			<p>LangChain + Gradio demo showing document Q&A with local retrieval and embeddings.</p>
+		</a>
 
-```markdown
-Syntax highlighted code block
+		<a class="card" href="https://github.com/dcfrancisco/ops-runtime-ai-prompts" target="_blank">
+			<h3>ops-runtime-ai-prompts</h3>
+			<p>Modular runtime and prompt collection for operational AI: orchestration, RAG, and observability.</p>
+		</a>
 
-# Header 1
-## Header 2
-### Header 3
+		<a class="card" href="https://github.com/dcfrancisco/marina" target="_blank">
+			<h3>marina</h3>
+			<p>Modern Rust-based compiler and VM for Clipper 5.3 — lexer, bytecode, and runtime.</p>
+		</a>
 
-- Bulleted
-- List
+		<a class="card" href="https://github.com/dcfrancisco/balloon_crazy" target="_blank">
+			<h3>balloon_crazy</h3>
+			<p>Retro game port built with Flutter & Flame — a faithful take on a classic.</p>
+		</a>
 
-1. Numbered
-2. List
-3. Test
+		<a class="card" href="https://github.com/dcfrancisco/openapi-workshop" target="_blank">
+			<h3>openapi-workshop</h3>
+			<p>Hands-on OpenAPI workshop: one contract file, one mock workflow, one recommended client.</p>
+		</a>
 
-**Bold** and _Italic_ and `Code` text
+	</div>
+	<p class="more">Browse all public repositories on my GitHub: <a href="https://github.com/dcfrancisco">github.com/dcfrancisco</a></p>
+</section>
 
-[Link](url) and ![Image](src)
-```
+<section id="about">
+	<h2>About</h2>
+	<p>I work across JVM, Python, TypeScript, Rust, and embedded systems. I care about pragmatic architecture, observability, and making developer lives better.</p>
+	<ul class="skills">
+		<li>AI & ML systems</li>
+		<li>Backend & APIs</li>
+		<li>Developer tooling</li>
+		<li>Retro computing & games</li>
+	</ul>
+</section>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<section id="contact">
+	<h2>Contact</h2>
+	<p>Find me on <a href="https://www.linkedin.com/in/dcfrancisco/">LinkedIn</a> or visit <a href="http://www.francisco.ph/">francisco.ph</a>.</p>
+</section>
 
-### Jekyll Themes
+</main>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dcfrancisco/dcfrancisco.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<footer class="site-footer">
+	<div class="container">
+		<small>© Danny Francisco — <a href="https://github.com/dcfrancisco">github.com/dcfrancisco</a></small>
+	</div>
+</footer>
