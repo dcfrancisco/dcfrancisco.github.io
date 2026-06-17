@@ -10,24 +10,60 @@
     <div class="container">
       <a href="/projects.html">← Back to Projects</a>
       <h1>Open Intelligence Platform (OIP)</h1>
-      <p>
-        Private-first AI platform featuring multiple LLM providers, model
-        routing, memory layer, MCP integrations, and enterprise governance.
-      </p>
 
-      <h2>Technologies</h2>
-      <ul>
-        <li>Multi-provider LLM integrations</li>
-        <li>Vector memory stores and RAG</li>
-        <li>Model routing and MCP connectors</li>
-        <li>Governance and validation pipelines</li>
-      </ul>
+      <section>
+        <h2>Overview</h2>
+        <p>
+          OIP is a private-first AI platform that treats memory and governance
+          as core primitives. It enables organizations to combine multiple model
+          providers, route requests based on policy, and ground outputs in
+          retrievable evidence.
+        </p>
+      </section>
 
-      <h2>Architecture highlights</h2>
-      <p>
-        Built as modular microservices with a central memory layer, pluggable
-        model router, and audit/gating middleware for enterprise compliance.
-      </p>
+      <section>
+        <h2>Motivation</h2>
+        <p>
+          Models are powerful but fragile when detached from context. OIP exists
+          to give models stable memory, audit trails, and the ability to be
+          swapped or routed without breaking downstream processes.
+        </p>
+      </section>
+
+      <section>
+        <h2>Approach</h2>
+        <ul>
+          <li>
+            Memory layer (vectors + metadata) to persist context and evidence.
+          </li>
+          <li>
+            Policy-driven model router to choose providers by capability, cost,
+            and compliance needs.
+          </li>
+          <li>
+            Validation and audit pipelines that attach evidence to every
+            significant output.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Architecture highlights</h2>
+        <p>
+          OIP is composed of modular services: ingestion, memory store, router,
+          execution workers, and governance middleware. This separation allows
+          for incremental upgrades and clear auditability.
+        </p>
+      </section>
+
+      <section>
+        <h2>Status & links</h2>
+        <p>
+          Prototype work and internal demos exist. The project captures
+          practical patterns for RAG, model orchestration, and evidence-first
+          productionization.
+        </p>
+      </section>
     </div>
     <script src="/assets/script.js"></script>
   </body>
